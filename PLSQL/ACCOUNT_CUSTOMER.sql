@@ -1,7 +1,7 @@
 --------------------------------------------------------
 --  DDL for Type ACCOUNT_CUSTOMER
 --------------------------------------------------------
-
+--@Tareif
   CREATE OR REPLACE TYPE "PRJ"."ACCOUNT_CUSTOMER" under customer (
      acct_no varchar2(20)
      , credit_limit number
