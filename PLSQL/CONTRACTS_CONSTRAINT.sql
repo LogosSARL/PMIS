@@ -1,0 +1,9 @@
+--------------------------------------------------------
+--  Constraints for Table CONTRACTS
+--------------------------------------------------------
+
+  ALTER TABLE "PRJ"."CONTRACTS" MODIFY ("ID" NOT NULL ENABLE);
+  ALTER TABLE "PRJ"."CONTRACTS" MODIFY ("CONTRACT" NOT NULL ENABLE);
+  ALTER TABLE "PRJ"."CONTRACTS" MODIFY ("COMPANY" NOT NULL ENABLE);
+  ALTER TABLE "PRJ"."CONTRACTS" MODIFY ("TYPE" NOT NULL ENABLE);
+  ALTER TABLE "PRJ"."CONTRACTS" MODIFY ("STAGE" NOT NULL ENABLE);

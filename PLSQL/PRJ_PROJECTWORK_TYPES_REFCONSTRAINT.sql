@@ -1,0 +1,8 @@
+--------------------------------------------------------
+--  Ref Constraints for Table PRJ_PROJECTWORK_TYPES
+--------------------------------------------------------
+
+  ALTER TABLE "PRJ"."PRJ_PROJECTWORK_TYPES" ADD CONSTRAINT "PRJWORK_PROJ_FK" FOREIGN KEY ("PROJ_ID")
+	  REFERENCES "PRJ"."LGS_PROJECTS" ("ID") ENABLE;
+  ALTER TABLE "PRJ"."PRJ_PROJECTWORK_TYPES" ADD CONSTRAINT "PRJWORK_WRKTYP_FK" FOREIGN KEY ("WRKTYP_ID")
+	  REFERENCES "PRJ"."PRJ_WORK_TYPES" ("ID") ENABLE;
